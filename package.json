@@ -1,0 +1,38 @@
+{
+  "name": "meants-cli",
+  "version": "0.0.2",
+  "description": "MEANTS Framework cli installation",
+  "main": "meants.js",
+  "scripts": {
+    "test": "mean-test"
+  },
+  "bin": {
+      "meants": "./bin/meants.js"
+    },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vecbralis/meants-cli.git"
+  },
+  "keywords": [
+    "MEAN",
+    "MEANSTACK",
+    "express",
+    "mongoose",
+    "node",
+    "meanstack-cli"
+  ],
+  "author": "Martins Vecbralis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vecbralis/meants-cli/issues"
+  },
+  "homepage": "https://github.com/vecbralis/meants-cli#readme",
+  "dependencies": {
+    "commander": "^2.9.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.13.0",
+    "gulp-watch": "^4.3.5"
+  }
+}
