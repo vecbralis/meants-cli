@@ -15,7 +15,7 @@ var typescriptFiles = [
 gulp.task('typescript', function(){
   return gulp.src(typescriptFiles)
         .pipe(ts({
-            module: 'amd'
+            module: 'none'
         })).js.pipe(gulp.dest('./'));
 });
 
